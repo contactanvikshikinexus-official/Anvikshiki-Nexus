@@ -1,0 +1,17 @@
+@keyframes bshimmer{from{background-position:300% center}to{background-position:0% center}}
+
+@keyframes floatA{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-28px)}
+}
+
+@keyframes logoPulse{
+  0%,100%{box-shadow:0 0 60px var(--glow),0 0 120px rgba(59,130,246,.1)}
+  50%{box-shadow:0 0 100px var(--glow),0 0 200px rgba(59,130,246,.18)}
+}
+
+@keyframes logoSpin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+@keyframes bpulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.6)}}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
